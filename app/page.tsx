@@ -540,7 +540,7 @@ export default function Home() {
 
                 <div className="mt-8 flex flex-wrap gap-4">
                   <a
-                    href="https://luna-bistro-g43n7ggs-ghayoorahmad05-7266s-projects.vercel.app"
+                    href="https://luna-bistro-omega.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
