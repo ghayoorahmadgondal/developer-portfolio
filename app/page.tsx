@@ -479,29 +479,13 @@ export default function Home() {
           <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03]">
             <div className="grid lg:grid-cols-2">
               {/* Project Visual */}
-              <div className="flex min-h-[320px] items-center justify-center bg-gradient-to-br from-cyan-950 via-slate-900 to-slate-950 p-8">
-                <div className="w-full max-w-md rounded-2xl border border-white/10 bg-slate-950/80 p-6 shadow-2xl">
-                  <div className="mb-6 flex items-center justify-between">
-                    <span className="font-semibold">
-                      Luna Bistro
-                    </span>
-
-                    <span className="rounded-full bg-cyan-400/10 px-3 py-1 text-xs text-cyan-400">
-                      Live
-                    </span>
-                  </div>
-
-                  <div className="space-y-3">
-                    <div className="h-3 rounded-full bg-white/10" />
-                    <div className="h-3 w-4/5 rounded-full bg-white/10" />
-                    <div className="h-3 w-3/5 rounded-full bg-cyan-400/30" />
-                  </div>
-
-                  <div className="mt-8 grid grid-cols-3 gap-3">
-                    <div className="h-16 rounded-lg bg-white/5" />
-                    <div className="h-16 rounded-lg bg-white/5" />
-                    <div className="h-16 rounded-lg bg-white/5" />
-                  </div>
+              <div className="flex min-h-[320px] items-center justify-center bg-gradient-to-br from-cyan-950 via-slate-900 to-slate-950 p-6 sm:p-8">
+                <div className="w-full max-w-xl overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
+                  <img
+                    src="/luna-bistro.png"
+                    alt="Luna Bistro restaurant website"
+                    className="h-auto w-full object-cover"
+                  />
                 </div>
               </div>
 
